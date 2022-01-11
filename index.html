@@ -12,32 +12,42 @@
 </head>
 
 <body>
-  <header>
-    <nav>
-      <a href="./index.html"><span>Web</span>Studio</a>
-      <ul>
-        <li><a href="./index.html">Cтудия</a></li>
-        <li><a href="./portfolio.html">Портфолио</a></li>
-        <li><a href="">Контакты</a></li>
+      <header class="header">
+        <nav class="site-nav">
+          <a href="./index.html" class="logo"><span>Web</span>Studio</a>
+          <ul class="nav-list list">
+            <li class="nav-item">
+              <a href="./index.html" class="nav-link link active-page">Cтудия</a>
+            </li>
+            <li class="nav-item">
+              <a href="./portfolio.html" class="nav-link link">Портфолио</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="auth-nav list">
+          <li class="auth-item">
+            <a href="mailto:info@devstudio.com" class="auth-link link">info@devstudio.com</a>
+          </li>
+          <li class="auth-item">
+            <a href="tel:+380961111111" class="auth-link link">+38 096 111 11 11</a>
+          </li>
         </ul>
-    </nav>
-    <ul>
-      <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-      <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-    </ul>
-  </header>
+      </header>
   
   <main>
     <div>
-      <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
+      <section class="hero">
+        <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
         <button type="button">Заказать услугу</button>
       </section>
     </div>
 
-    <section>
-      <h2 style="color: #ffffff00;">Наши преимущества</h2>
-      <ul>
+    <section class="section">
+      <h2 class="section-title hidden-title">Наши преимущества</h2>
+      <ul class="list">
         <li>
           <h3>Внимание к деталям</h3>
           <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
@@ -57,9 +67,9 @@
       </ul>
     </section>
 
-    <section>
-      <h2>Чем мы занимаемся</h2>
-      <ul>
+    <section class="section">
+      <h2 class="section-title">Чем мы занимаемся</h2>
+      <ul class="list">
         <li>
           <img src="./images/img1.jpeg" alt="Руки на клавиатуре. На экране код." width="370">
         </li>
@@ -72,9 +82,9 @@
       </ul>
     </section>
 
-    <section>
-      <h2>Наша команда</h2>
-      <ul>
+    <section class="section">
+      <h2 class="section-title">Наша команда</h2>
+      <ul class="list">
         <li>
           <img src="./images/demiyanenko1.jpeg" alt="Фото Игоря Демьяненка" width="270">
           <h3>Игорь Демьяненко</h3>
