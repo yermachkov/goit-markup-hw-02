@@ -12,7 +12,7 @@
 /* General  */
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
 }
@@ -46,7 +46,7 @@ p {
 .logo {
   font-family: Raleway;
   color: var(--title-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -73,12 +73,7 @@ p {
   color: var(--primary-accent-color);
 }
 
-.nav-link.active-page:hover,
-.nav-link.active-page:focus {
-  color: var(--title-text-color);
-}
-
-.auth-link {
+.header-contacts {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -86,8 +81,8 @@ p {
   letter-spacing: 0.02em;
 }
 
-.auth-link:hover,
-.auth-link:focus {
+.header-contacts:hover,
+.header-contacts:focus {
   color: var(--primary-accent-color);
 }
 
@@ -111,7 +106,7 @@ p {
   background-color: var(--primary-accent-color);
   color: var(--secondary-accent-color);
   font-family: inherit;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   display: flex;
@@ -121,14 +116,17 @@ p {
   cursor: pointer;
 }
 
-.hero-btn:hover,
-.hero-btn:focus {
-  background-color: var(--secondary-accent-color);
-  color: var(--primary-accent-color);
+.services-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
 }
 
 .advantages-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -137,14 +135,13 @@ p {
 }
 
 .advantages-text {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
 .team-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -162,7 +159,6 @@ p {
 }
 
 .team-position {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -194,14 +190,13 @@ p {
 
 .project-title {
   color: var(--title-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 
 .project-text {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
@@ -216,7 +211,7 @@ p {
 .footer-logo {
   font-family: Raleway;
   color: var(--secondary-accent-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
@@ -228,7 +223,6 @@ p {
 
 .address-list {
   font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
