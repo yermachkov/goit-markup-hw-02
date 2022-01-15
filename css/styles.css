@@ -9,12 +9,14 @@
   --footer-backgrounf-color: #2f303a;
 }
 
-/* General  */
+/* -------- General ---------------- */
 
 body {
   font-family: 'Roboto', sans-serif;
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 p {
@@ -56,7 +58,6 @@ p {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
 }
 
 .logo > span {
@@ -66,7 +67,6 @@ p {
 .nav-link {
   color: var(--title-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.15;
   letter-spacing: 0.02em;
 }
@@ -83,7 +83,6 @@ p {
 .header-contacts {
   color: var(--primary-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -93,7 +92,7 @@ p {
   color: var(--primary-accent-color);
 }
 
-/* Main page styles */
+/* ----------- Main page styles ---------------*/
 
 .hero {
   background-color: var(--footer-backgrounf-color);
@@ -128,23 +127,18 @@ p {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 
 .advantages-title {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
 }
 
 .advantages-text {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .team-title {
@@ -152,7 +146,6 @@ p {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 
@@ -161,7 +154,6 @@ p {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 
@@ -169,10 +161,9 @@ p {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
-/* Portfolio styles */
+/* ------------ Portfolio styles ----------*/
 
 .btn {
   font-family: inherit;
@@ -206,10 +197,9 @@ p {
 .project-text {
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
 }
 
-/* Footer styles */
+/* ------------ Footer styles -------------- */
 
 .footer {
   background-color: var(--footer-backgrounf-color);
@@ -221,7 +211,6 @@ p {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
 }
 
 .footer-logo > span {
@@ -230,9 +219,7 @@ p {
 
 .address-list {
   font-style: normal;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .address-link {
